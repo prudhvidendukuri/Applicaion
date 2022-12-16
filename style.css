@@ -1,4 +1,47 @@
-h1{
+/* body css */
+*{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    background-color:antiquewhite;
+    border-radius: 18px ;
+}
+.headerName{
     color: rgb(104, 7, 7);
+    font-size: 2rem;
+}
+/* login */
+#login{
+    margin: 10px 0px;
+}
+#formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label,input{
+    font-size: 1.2rem;
+    margin: 6px 0px;
+    padding: 0px 6px;
+}
+/* error css */
+.loginError{
+    text-align: center;
+    color: red;
+}
+/* posts main page */
+#post{
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+    margin: 6px 0px;
+    padding: 0px 6px;
 }
